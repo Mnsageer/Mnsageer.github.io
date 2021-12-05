@@ -1,6 +1,6 @@
 <?php
-include 'Data/translate.php';
-include 'Data/ip.php';
+include 'translate.php';
+include 'ip.php';
 ?>
 <html lang="en">
 <head>

